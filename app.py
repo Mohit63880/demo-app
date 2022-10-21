@@ -8,4 +8,4 @@ def customers():
 
 @app.route('/')
 def index():
-    return "<h1>Hello World"
+    return "<h1>Hello World</h1>"

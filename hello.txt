@@ -6,8 +6,16 @@ git commit -m "Your Comments"
 git log 
 git config -l
 git diff --help
-git diff secondCommit firstCommit
-git commit -a -m "comments" 
+git diff oldCommitId newCommitId
+git commit -a -m "comments"          // only commit updated file & doesn't do anything with new file or untracked file.
+git restore --stage "fileName"      //Moves the file from staging area to untracked area
+git rm --f hello.txt               // remove file physically as well
+
+git branch                         // lists all the existing branches( current branch is high lighted with *)
+git branch 'name-of-new-branch'    // create a new branch(if not exists)
+git checkout 'name-of-branch'      // switch to new branch
+git checkout -b 'name-of-branch'   // create & switch to new branch
+
 
 //check all gloabal variables
 git config --list
@@ -28,3 +36,5 @@ pip freeze > requirements.txt
 
 
 
+1. goto github.com then create an account & login 
+2. create new repository
