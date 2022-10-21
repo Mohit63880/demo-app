@@ -1,0 +1,30 @@
+git status
+git init
+git add .
+git rm --cached hello.txt
+git commit -m "Your Comments"
+git log 
+git config -l
+git diff --help
+git diff secondCommit firstCommit
+git commit -a -m "comments" 
+
+//check all gloabal variables
+git config --list
+
+// For changing name of your login
+git config --global user.name "Your new name"
+git config --global user.email "Your new name"
+
+
+python -m venv myenv
+
+source myenv/Script/activate
+deactivate
+
+
+pip freeze > requirements.txt
+
+
+
+
